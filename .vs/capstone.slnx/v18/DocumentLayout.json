@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\capstone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.vb",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\Forms\\frmLogin.vb",
+              "RelativeDocumentMoniker": "Forms\\frmLogin.vb",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\Forms\\frmLogin.vb",
+              "RelativeToolTip": "Forms\\frmLogin.vb",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAuwN0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:14:39.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.vb",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\Classes\\User.vb",
+              "RelativeDocumentMoniker": "Classes\\User.vb",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\Classes\\User.vb",
+              "RelativeToolTip": "Classes\\User.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:12:29.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "capstone",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+              "RelativeDocumentMoniker": "capstone.vbproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+              "RelativeToolTip": "capstone.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-05-25T01:48:15.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
