@@ -205,11 +205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+      "projectUniqueName": "D:\\GITHUB\\Capstone-Pemvis\\capstone.vbproj",
       "projectName": "capstone",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+      "projectPath": "D:\\GITHUB\\Capstone-Pemvis\\capstone.vbproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\capstone\\obj\\",
+      "outputPath": "D:\\GITHUB\\Capstone-Pemvis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -24,17 +24,18 @@ Public Class Security
     ' ========================================
     ' FUNGSI LOG AKTIVITAS
     ' ========================================
-    Public Shared Sub LogAktivitas(userID As Integer, aktivitas As String, tabel As String, Optional recordID As Integer = 0, Optional keterangan As String = "")
+    Public Shared Sub LogAktivitas(userID As Integer, aktivitas As String, tabel As String,
+                               Optional recordID As Integer = 0, Optional keterangan As String = "")
         Try
             Dim ipAddress As String = GetIPAddress()
             Dim query As String = String.Format(
-                "INSERT INTO tbl_Log (UserID, Aktivitas, Tabel, RecordID, Keterangan, TanggalAktivitas, IPAddress, Status) " &
-                "VALUES ({0}, N'{1}', N'{2}', {3}, N'{4}', GETDATE(), N'{5}', 'Sukses')",
-                userID, aktivitas, tabel, recordID, keterangan.Replace("'", "''"), ipAddress)
+            "INSERT INTO tbl_Log (UserID, Aktivitas, Tabel, RecordID, Keterangan, TanggalAktivitas, IPAddress, Status) " &
+            "VALUES ({0}, N'{1}', N'{2}', {3}, N'{4}', NOW(), N'{5}', 'Sukses')",
+            userID, aktivitas, tabel, recordID, keterangan.Replace("'", "''"), ipAddress)
 
             Database.ExecuteNonQuery(query)
         Catch ex As Exception
-            ' Jangan tampilkan error, hanya log saja
+            Console.WriteLine("Log Error: " & ex.Message)
         End Try
     End Sub
 

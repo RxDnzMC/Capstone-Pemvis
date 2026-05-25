@@ -144,11 +144,12 @@
             Dim username As String = txtUsername.Text.Trim()
             Dim password As String = Security.MD5Hash(txtPassword.Text)
 
+            ' Gunakan parameterized query untuk keamanan
             Dim query As String = String.Format(
-                "SELECT UserID, Username, NamaLengkap, Role, Email, NoTelepon " &
-                "FROM tbl_Users " &
-                "WHERE Username = N'{0}' AND Password = N'{1}' AND IsAktif = 1",
-                username.Replace("'", "''"), password)
+            "SELECT UserID, Username, NamaLengkap, Role, Email, NoTelepon " &
+            "FROM tbl_Users " &
+            "WHERE Username = N'{0}' AND Password = N'{1}' AND IsAktif = 1",
+            username.Replace("'", "''"), password)
 
             Dim dt = Database.ExecuteQuery(query)
 

@@ -1,4 +1,5 @@
-﻿Imports System.Data
+﻿Imports System.Configuration
+Imports System.Data
 Imports MySqlConnector
 
 Public Class Database
@@ -6,7 +7,15 @@ Public Class Database
     ' ========================================
     ' CONNECTION STRING
     ' ========================================
-    Private Shared connStr As String = "Server=localhost;Database=DB_NilaiMahasiswa;User=root;Password=;Port=3306;"
+    Private Shared connStr As String
+
+    Shared Sub New()
+        ' Baca dari app.config, fallback ke hardcode
+        connStr = ConfigurationManager.AppSettings("ConnectionString")
+        If String.IsNullOrEmpty(connStr) Then
+            connStr = "Server=localhost;Database=DB_NilaiMahasiswa;User=root;Password=;Port=3306;"
+        End If
+    End Sub
     Private Shared connStrMaster As String = "Server=localhost;User=root;Password=;Port=3306;"
 
     ' ========================================
@@ -172,7 +181,9 @@ CREATE TABLE IF NOT EXISTS tbl_Nilai (
     Grade VARCHAR(1),
     Keterangan VARCHAR(50),
     TanggalInput DATETIME DEFAULT CURRENT_TIMESTAMP,
+    TanggalUpdate DATETIME NULL,
     UserIDInput INT,
+    UserIDUpdate INT,
     FOREIGN KEY (MahasiswaID) REFERENCES tbl_Mahasiswa(MahasiswaID),
     FOREIGN KEY (MataKuliahID) REFERENCES tbl_MataKuliah(MataKuliahID),
     FOREIGN KEY (TahunAkademikID) REFERENCES tbl_TahunAkademik(TahunAkademikID)
@@ -186,6 +197,8 @@ CREATE TABLE IF NOT EXISTS tbl_Log (
     RecordID INT,
     Keterangan LONGTEXT,
     TanggalAktivitas DATETIME DEFAULT CURRENT_TIMESTAMP,
+    IPAddress VARCHAR(50) NULL,
+    Status VARCHAR(20) NULL,
     FOREIGN KEY (UserID) REFERENCES tbl_Users(UserID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 

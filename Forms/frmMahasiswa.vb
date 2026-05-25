@@ -22,21 +22,34 @@
 
     Private Sub LoadData()
         Try
-            Dim query = "SELECT MahasiswaID, NIM, NamaLengkap, ps.NamaProdi, Email, NoTelepon, Alamat, TahunMasuk " &
-                        "FROM tbl_Mahasiswa m " &
-                        "INNER JOIN tbl_ProgramStudi ps ON m.ProdiID = ps.ProdiID " &
-                        "WHERE m.IsAktif = 1 ORDER BY NIM"
+            Dim query = "SELECT m.MahasiswaID, m.NIM, m.NamaLengkap, ps.NamaProdi, m.ProdiID, " &
+                    "m.Email, m.NoTelepon, m.Alamat, m.TahunMasuk " &
+                    "FROM tbl_Mahasiswa m " &
+                    "INNER JOIN tbl_ProgramStudi ps ON m.ProdiID = ps.ProdiID " &
+                    "WHERE m.IsAktif = 1 ORDER BY m.NIM"
 
             Dim dt = Database.ExecuteQuery(query)
             DataGridView1.DataSource = dt
 
-            ' Set column widths
-            DataGridView1.Columns(0).Width = 50
-            DataGridView1.Columns(1).Width = 80
-            DataGridView1.Columns(2).Width = 150
-            DataGridView1.Columns(3).Width = 120
+            ' Sembunyikan kolom ProdiID
+            If DataGridView1.Columns.Count >= 5 Then
+                DataGridView1.Columns(4).Visible = False ' ProdiID
+            End If
+
+            ' Atur lebar kolom yang terlihat
+            With DataGridView1
+                .Columns(0).Width = 50   ' MahasiswaID
+                .Columns(1).Width = 80   ' NIM
+                .Columns(2).Width = 150  ' NamaLengkap
+                .Columns(3).Width = 120  ' NamaProdi
+                .Columns(5).Width = 150  ' Email
+                .Columns(6).Width = 100  ' NoTelepon
+                .Columns(7).Width = 200  ' Alamat
+                .Columns(8).Width = 80   ' TahunMasuk
+            End With
+
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message)
+            MessageBox.Show("Error LoadData: " & ex.Message)
         End Try
     End Sub
 
@@ -89,19 +102,23 @@
             Return
         End If
 
-        isEditing = True
-        currentMahasiswaID = CInt(DataGridView1.SelectedRows(0).Cells(0).Value)
+        Try
+            isEditing = True
+            Dim row = DataGridView1.SelectedRows(0)
 
-        Dim row = DataGridView1.SelectedRows(0)
-        txtNIM.Text = row.Cells(1).Value.ToString()
-        txtNama.Text = row.Cells(2).Value.ToString()
-        cmbProdi.SelectedValue = row.Cells(3).Value.ToString()
-        txtEmail.Text = row.Cells(4).Value.ToString()
-        txtNoTelepon.Text = row.Cells(5).Value.ToString()
-        txtAlamat.Text = row.Cells(6).Value.ToString()
-        numTahunMasuk.Value = CInt(row.Cells(7).Value)
+            currentMahasiswaID = CInt(row.Cells(0).Value)      ' MahasiswaID
+            txtNIM.Text = row.Cells(1).Value.ToString()        ' NIM
+            txtNama.Text = row.Cells(2).Value.ToString()       ' NamaLengkap
+            cmbProdi.SelectedValue = CInt(row.Cells(4).Value)  ' ProdiID (tersembunyi)
+            txtEmail.Text = row.Cells(5).Value?.ToString()     ' Email
+            txtNoTelepon.Text = row.Cells(6).Value?.ToString() ' NoTelepon
+            txtAlamat.Text = row.Cells(7).Value?.ToString()    ' Alamat
+            numTahunMasuk.Value = CInt(row.Cells(8).Value)     ' TahunMasuk
 
-        txtNIM.ReadOnly = True
+            txtNIM.ReadOnly = True
+        Catch ex As Exception
+            MessageBox.Show("Error saat edit: " & ex.Message)
+        End Try
     End Sub
 
     Private Sub UpdateMahasiswa()

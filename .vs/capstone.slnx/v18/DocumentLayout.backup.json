@@ -1,18 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\capstone\\",
+  "WorkspaceRootPath": "D:\\GITHUB\\Capstone-Pemvis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\classes\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:classes\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\classes\\nilaimahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:classes\\nilaimahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|c:\\users\\user\\source\\repos\\capstone\\classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A794861A-A42B-4C88-B413-2AB28227B14A}|capstone.vbproj|solutionrelative:classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmnilai.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmnilai.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmmahasiswa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmmahasiswa.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmmahasiswa.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\classes\\security.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:classes\\security.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:classes\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmreportnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmreportnilai.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmreportlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmreportlog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\forms\\frmmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:forms\\frmmainmenu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|d:\\github\\capstone-pemvis\\capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C89AEB6E-2E9C-4210-BD7F-3F6EEF54893C}|capstone.vbproj|solutionrelative:capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,36 +75,191 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Database.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\Database.vb",
+              "RelativeDocumentMoniker": "Classes\\Database.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\Database.vb",
+              "RelativeToolTip": "Classes\\Database.vb",
+              "ViewState": "AgIAABgBAAAAAAAAAAAmwCUBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:33:32.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmReportNilai.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmReportNilai.vb",
+              "RelativeDocumentMoniker": "Forms\\frmReportNilai.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmReportNilai.vb",
+              "RelativeToolTip": "Forms\\frmReportNilai.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:30:59.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmReportLog.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmReportLog.vb",
+              "RelativeDocumentMoniker": "Forms\\frmReportLog.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmReportLog.vb",
+              "RelativeToolTip": "Forms\\frmReportLog.vb",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:30:40.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmNilai.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmNilai.vb",
+              "RelativeDocumentMoniker": "Forms\\frmNilai.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmNilai.vb",
+              "RelativeToolTip": "Forms\\frmNilai.vb",
+              "ViewState": "AgIAABkBAAAAAAAAAAAmwDABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:30:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmLogin.vb",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\Forms\\frmLogin.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmLogin.vb",
               "RelativeDocumentMoniker": "Forms\\frmLogin.vb",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\Forms\\frmLogin.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmLogin.vb",
               "RelativeToolTip": "Forms\\frmLogin.vb",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAuwN0AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAANEAAAAAAAAAAAAmwOgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-25T02:14:39.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "frmLogin.vb [Design]",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmLogin.vb",
+              "RelativeDocumentMoniker": "Forms\\frmLogin.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmLogin.vb [Design]",
+              "RelativeToolTip": "Forms\\frmLogin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:29:44.607Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NilaiMahasiswa.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\NilaiMahasiswa.vb",
+              "RelativeDocumentMoniker": "Classes\\NilaiMahasiswa.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\NilaiMahasiswa.vb",
+              "RelativeToolTip": "Classes\\NilaiMahasiswa.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:33:35.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMahasiswa.Designer.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMahasiswa.Designer.vb",
+              "RelativeDocumentMoniker": "Forms\\frmMahasiswa.Designer.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMahasiswa.Designer.vb",
+              "RelativeToolTip": "Forms\\frmMahasiswa.Designer.vb",
+              "ViewState": "AgIAADMBAAAAAAAAAAAuwEsBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:38:57.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmNilai.Designer.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmNilai.Designer.vb",
+              "RelativeDocumentMoniker": "Forms\\frmNilai.Designer.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmNilai.Designer.vb",
+              "RelativeToolTip": "Forms\\frmNilai.Designer.vb",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAuwIsBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:41:06.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMahasiswa.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMahasiswa.vb",
+              "RelativeDocumentMoniker": "Forms\\frmMahasiswa.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMahasiswa.vb",
+              "RelativeToolTip": "Forms\\frmMahasiswa.vb",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAuwGkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:29:07.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmMainMenu.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMainMenu.vb",
+              "RelativeDocumentMoniker": "Forms\\frmMainMenu.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Forms\\frmMainMenu.vb",
+              "RelativeToolTip": "Forms\\frmMainMenu.vb",
+              "ViewState": "AgIAADIAAAAAAAAAAAA0wEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:30:07.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Security.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\Security.vb",
+              "RelativeDocumentMoniker": "Classes\\Security.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\Security.vb",
+              "RelativeToolTip": "Classes\\Security.vb",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewCYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-25T02:33:38.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "User.vb",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\Classes\\User.vb",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\User.vb",
               "RelativeDocumentMoniker": "Classes\\User.vb",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\Classes\\User.vb",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\Classes\\User.vb",
               "RelativeToolTip": "Classes\\User.vb",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-25T02:12:29.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "app.config",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-25T02:33:50.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "capstone",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+              "DocumentMoniker": "D:\\GITHUB\\Capstone-Pemvis\\capstone.vbproj",
               "RelativeDocumentMoniker": "capstone.vbproj",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\capstone\\capstone.vbproj",
+              "ToolTip": "D:\\GITHUB\\Capstone-Pemvis\\capstone.vbproj",
               "RelativeToolTip": "capstone.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
               "WhenOpened": "2026-05-25T01:48:15.048Z",
